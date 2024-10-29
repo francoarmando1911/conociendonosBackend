@@ -1,4 +1,4 @@
-package model;
+package com.conociendonos.conociendonosBackend.model;
 
 public enum Categoria {
     NINOS,

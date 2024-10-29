@@ -1,11 +1,11 @@
-package model;
+package com.conociendonos.conociendonosBackend.model;
 
 import org.springframework.data.annotation.Id;
 
 public class Producto {
 
     @Id
-    private String id;  // ID único para MongoDB
+    private String id;
     private String nombre;
     private String descripcion;
     private double precio;
